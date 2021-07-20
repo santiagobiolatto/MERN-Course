@@ -1,19 +1,18 @@
 import React from "react";
 import UsersList from "../components/UsersList";
-import Faker from 'faker'
 
 const Users = () => {
   const USERS = [
     {
       id: '1',
-      name: Faker.name.findName(),
-      image: Faker.internet.avatar(),
+      name: 'Santiago Biolatto',
+      image: 'https://www.tsensor.online/wp-content/uploads/2020/04/avatar-icon-png-105-images-in-collection-page-3-avatarpng-512_512.png',
       places: 1,
     },
     {
       id: '2',
-      name: Faker.name.findName(),
-      image: Faker.internet.avatar(),
+      name: 'Juan Perez',
+      image: 'https://image.flaticon.com/icons/png/512/147/147144.png',
       places: 3,
     }
   ];
